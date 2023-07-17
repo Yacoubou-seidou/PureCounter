@@ -1,7 +1,7 @@
 # pure_counter
 
-![Version](https://img.shields.io/npm/v/your-pure_counter.svg)
-![License](https://img.shields.io/npm/l/your-pure_counter.svg)
+![Version](https://img.shields.io/npm/v/pure_counter.svg)
+![License](https://img.shields.io/npm/l/pure_counter.svg)
 
 > pure_counter is a collection of React components for implementing pure increment and decrement functionality. It provides customizable components that smoothly animate numerical values within a given range. With easy installation and usage, it offers a simple way to incorporate increment and decrement features into your React applications.
 
