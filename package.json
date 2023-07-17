@@ -2,7 +2,7 @@
   "name": "pure_counter",
   "description": "Pure increment and decrement functionality components",
   "author": "Yacos",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "keywords": [
     "react",
     "date picker",
