@@ -1,9 +1,9 @@
-# Pure_counter
+# pure_counter
 
 ![Version](https://img.shields.io/npm/v/your-package-name.svg)
 ![License](https://img.shields.io/npm/l/your-package-name.svg)
 
-> Pure_counter is a collection of React components for implementing pure increment and decrement functionality. It provides customizable components that smoothly animate numerical values within a given range. With easy installation and usage, it offers a simple way to incorporate increment and decrement features into your React applications.
+> pure_counter is a collection of React components for implementing pure increment and decrement functionality. It provides customizable components that smoothly animate numerical values within a given range. With easy installation and usage, it offers a simple way to incorporate increment and decrement features into your React applications.
 
 
 ## Installation
@@ -11,7 +11,7 @@
 You can install the package via npm:
 
 ```bash
-npm install Pure_counter
+npm install pure_counter
 ```
 
 # Usage
