@@ -2,7 +2,7 @@
   "name": "pure_counter",
   "description": "Pure increment and decrement functionality components",
   "author": "Yacos",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "keywords": [
     "react",
     "date picker",
@@ -29,6 +29,7 @@
     "url": "git+https://github.com/Yacoubou-seidou/PureCounter"
   },
   "dependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@babel/polyfill": "^7.12.1",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
