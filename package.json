@@ -1,5 +1,7 @@
 {
   "name": "pure_counter",
+  "description": "Pure increment and decrement functionality components",
+  "author": "Yacos",
   "version": "0.1.0",
   "private": false,
   "repository": {
