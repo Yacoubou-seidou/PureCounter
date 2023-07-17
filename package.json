@@ -3,6 +3,25 @@
   "description": "Pure increment and decrement functionality components",
   "author": "Yacos",
   "version": "0.1.0",
+  "keywords": [
+    "react",
+    "date picker",
+    "calendar",
+    "component",
+    "UI",
+    "input",
+    "form",
+    "date selection",
+    "date control",
+    "JavaScript",
+    "frontend"
+  ],
+  "bugs": {
+    "mail": "yacoseidou@gmail.com",
+    "url": "https://github.com/Yacoubou-seidou/PureCounter/issues"
+  },
+  "license": "MIT",
+  "main": "./src/index.js",
   "private": false,
   "repository": {
     "type": "git",
