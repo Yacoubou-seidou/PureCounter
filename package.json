@@ -1,8 +1,36 @@
 {
-  "name": "PureCounter",
-  "version": "0.1.0",
-  "private": true,
+  "name": "pure_counter",
+  "description": "Pure increment and decrement functionality components",
+  "author": "Yacos",
+  "version": "0.1.5",
+  "keywords": [
+    "react",
+    "date picker",
+    "calendar",
+    "component",
+    "UI",
+    "input",
+    "form",
+    "date selection",
+    "date control",
+    "JavaScript",
+    "frontend"
+  ],
+  "bugs": {
+    "mail": "yacoseidou@gmail.com",
+    "url": "https://github.com/Yacoubou-seidou/PureCounter/issues"
+  },
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yacoubou-seidou/PureCounter"
+  },
   "dependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@babel/polyfill": "^7.12.1",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -13,7 +41,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "rm -rf dist && SET NODE_ENV=production && babel src/lib --out-dir dist --copy-files",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -34,5 +62,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.22.9",
+    "@babel/core": "^7.22.9",
+    "@babel/preset-env": "^7.22.9"
   }
 }
