@@ -34,7 +34,7 @@ import { PureIncrement, PureDecrement } from 'pure_counter';
 | start    | number   | The starting value |
 | end      | number   | The ending value   |
 | duration | number   | Duration in seconds|
-| className| number   | CSS class name     |
+| className| string   | CSS class name     |
 
 ## PureDecrement
 
@@ -43,7 +43,7 @@ import { PureIncrement, PureDecrement } from 'pure_counter';
 | start    | number   | The starting value |
 | end      | number   | The ending value   |
 | duration | number   | Duration in seconds|
-| className| number   | CSS class name     |
+| className| string   | CSS class name     |
 
 ## 👥 Authors <a name="authors"></a>
 
