@@ -47,11 +47,17 @@ import { PureIncrement, PureDecrement } from 'pure_counter';
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Author**
+👤 **Yacoubou Seidou**
 
 - GitHub: [yacoubou-seidou](https://github.com/yacoubou-seidou)
 - Linkedin: [yacoubou-seidou](https://www.linkedin.com/in/yacoubou-seidou-chaibou/)
 - Facebook: [yacoubou-seidou](https://www.facebook.com/Blackyacos.chaibou)
+
+👤 **Mahamadou Nouridine**
+
+- GitHub: [mahamadou-nouridine](https://github.com/mahamadou-nouridine)
+- Linkedin: [mahamadou-nouridine](https://www.linkedin.com/in/mahamadou-nouridine)
+- Twitter: [Nouridine_Dino](https://twitter.com/Nouridine_Dino)
 
 ## 🤝 Contributing <a name="contributing"></a>
 
