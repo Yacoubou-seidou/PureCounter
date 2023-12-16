@@ -1,5 +1,18 @@
 import React, { useState, useEffect } from 'react';
+/**
+ * @typedef {Object} PureIncrement
+ * @property {number} start - The starting count.
+ * @property {number} end - The ending count.
+ * @property {number} duration - The duration of the decrement animation.
+ * @property {string} [className] - Optional class name for styling.
+ */
 
+/**
+ * PureDecrement component.
+ *
+ * @param {PureIncrement} props - The component props.
+ * @returns {JSX.Element} - The rendered JSX element.
+ */
 function PureIncrement({ start, end, duration, className }) {
   const [count, setCount] = useState(start);
 
