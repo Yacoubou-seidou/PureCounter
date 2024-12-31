@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 /**
- * @typedef {Object} PureDecrementProps
+ * @typedef {Object} PureIncrement
  * @property {number} start - The starting count.
  * @property {number} end - The ending count.
  * @property {number} duration - The duration of the decrement animation.
@@ -10,22 +10,28 @@ import React, { useState, useEffect } from 'react';
 /**
  * PureDecrement component.
  *
- * @param {PureDecrementProps} props - The component props.
+ * @param {PureIncrement} props - The component props.
  * @returns {JSX.Element} - The rendered JSX element.
  */
-function PureDecrement({ start, end, duration, className }) {
+
+
+interface PureIncrementProps {
+  start: number;
+  end: number;
+  duration: number;
+  className?: string;
+}
+
+const PureIncrement: React.FC<PureIncrementProps> = ({ start, end, duration, className }) => {
   const [count, setCount] = useState(start);
 
   useEffect(() => {
-    const decrement = Math.ceil((start - end) / (duration * 60));
-    const timeout = Math.ceil((duration * 1000) / (start - end));
+    const increment = Math.ceil((end - start) / (duration * 60));
+    const timeout = Math.ceil((duration * 1000) / (end - start));
 
-    if (start > end) {
+    if (start < end) {
       const timer = setInterval(() => {
-        setCount((prevCount) => {
-          const newCount = prevCount - decrement;
-          return newCount <= end ? end : newCount;
-        });
+        setCount((prevCount) => Math.min(prevCount + increment, end));
       }, timeout);
 
       return () => clearInterval(timer);
@@ -35,6 +41,6 @@ function PureDecrement({ start, end, duration, className }) {
   }, [start, end, duration]);
 
   return <span className={className}>{count}</span>;
-}
+};
 
-export default PureDecrement;
+export default PureIncrement;
