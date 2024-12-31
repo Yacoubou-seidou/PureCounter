@@ -2,7 +2,7 @@
   "name": "pure_counter",
   "description": "Pure increment and decrement functionality components",
   "author": "Yacos",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "keywords": [
     "react",
     "date picker",
@@ -14,6 +14,7 @@
     "date selection",
     "date control",
     "JavaScript",
+    "TypeScript",
     "frontend",
     "counting"
   ],
@@ -30,10 +31,9 @@
     "url": "git+https://github.com/Yacoubou-seidou/PureCounter"
   },
   "dependencies": {
+    "core-js": "^3.39.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-scripts": "^5.0.1",
-    "web-vitals": "^3.5.0"
+    "react-dom": "^18.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -60,9 +60,13 @@
     ]
   },
   "devDependencies": {
-    "@babel/cli": "^7.23.4",
+    "@babel/cli": "^7.26.4",
     "@babel/core": "^7.23.6",
     "@babel/preset-env": "^7.23.6",
-    "@babel/preset-react": "^7.23.3"
+    "@babel/preset-react": "^7.23.3",
+    "@types/react": "^18.2.14",
+    "@types/react-dom": "^18.2.7",
+    "eslint-config-react-app": "^7.0.1",
+    "typescript": "^5.3.0"
   }
 }
